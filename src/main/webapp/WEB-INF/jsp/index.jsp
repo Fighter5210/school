@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-<p>你好，大拿！</p>
+<p><img src="<%=request.getContextPath() %>/image/login.jpg"/></p>
 </body>
 </html>

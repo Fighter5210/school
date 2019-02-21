@@ -52,9 +52,9 @@ public class DeviceController {
         return ResultGenerator.genSuccessResult(pageInfo);
     }
 
-    @GetMapping("/test")
-    public String test(@RequestParam Integer id) {
-        Device device = deviceService.findByKey("f261175016234cb15961c4fe27585c0c");//.findById(id);
+    @GetMapping("/index")
+    public String test() {
+       // Device device = deviceService.findByKey("f261175016234cb15961c4fe27585c0c");//.findById(id);
         return "index";
     }
 }
